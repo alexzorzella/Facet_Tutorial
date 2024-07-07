@@ -7,6 +7,8 @@ public class Foo : MonoBehaviour
 {
     private void Start()
     {
+        GetComponent<Foo>();
+
         Bar();
     }
 
